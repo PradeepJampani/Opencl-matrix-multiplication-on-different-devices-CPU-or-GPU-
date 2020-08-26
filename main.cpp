@@ -112,14 +112,14 @@ size_t SIZE , TILE_SIZE ;
 	 tileset_1();
 	
 
-}
+	}
   	else if(q==2)
 	{
 	 tileset_2();
 	}
       else if(q==3){
  tileset_3();
-}
+ }
 
 SIZE = size  ; 
  TILE_SIZE = tile_size ; 
@@ -140,8 +140,8 @@ SIZE = size  ;
 		}
     }
 
-	std::chrono::high_resolution_clock::time_point t1, t2;
-	t1 = std::chrono::high_resolution_clock::now();
+    std::chrono::high_resolution_clock::time_point t1, t2;
+    t1 = std::chrono::high_resolution_clock::now();
     matrix_mul_sequence(A, B, C_seq,size);
     t2 = std::chrono::high_resolution_clock::now();
     std::cout << "Reference C matrix multiplication: "
