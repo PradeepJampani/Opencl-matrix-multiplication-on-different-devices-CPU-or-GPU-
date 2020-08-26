@@ -1,0 +1,17 @@
+SETUP : 
+1. The execution should be done on a linux based system
+2. The necessory opencl/sdk driver must be installed in the pc .
+
+COMPILATION : 
+1. Go to the directory where the main.cpp and matrix_mul are located .
+2. open terminal and run the program using "g++ main.cpp -lOpenCL -std=c++11 -o main.o"
+
+
+OUTPUT :
+
+1. To run the file , type ./main.o 
+2. The program runs for wach set of matrix size and tiles size for both cpu and gpu . The results can be viewed on the terminal window .
+
+
+
+ 	
